@@ -1,16 +1,14 @@
-import { NavBarStyled } from "./NavBar.styled"
 import { NavLink } from 'react-router-dom'
+import './NavBar.scss';
 
 export const NavBar = () => {
     return (
-        <NavBarStyled>
+        <nav>
             <ul>
                 <li><NavLink to="/">Forside</NavLink></li>
-                <li><NavLink to="/Koncepter">Koncepter</NavLink></li>
-                <li><NavLink to="/about">Om os</NavLink></li>
-                <li><NavLink to="/kontaktOs">Kontaks os</NavLink></li>
+                <li><NavLink to="/Produkter">Produkter</NavLink></li>
+                <li><NavLink to="/Login">Login</NavLink></li>
             </ul>
-        </NavBarStyled>
+        </nav>
     )
 }
-

@@ -1,0 +1,33 @@
+nav {
+    width: 100%;
+    height: fit-content;
+    margin: auto 0 0 0;
+    align-items: flex-end;
+
+    ul {
+        justify-self: right;
+
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+
+        li {
+            font-size: 1.4rem;
+
+            a {
+                text-decoration: none;
+                color: #ffffff;
+                display: inline-block;
+                transition: 200ms ease-in-out;
+                padding: 1rem 0 .5rem 0;
+                margin-bottom: .5rem;
+                border-bottom: 2px solid #81af3500;
+
+                &:hover {
+                    border-bottom: 2px solid #94C83D80;
+                    color: #94C83D80;
+                }
+            }
+        }
+    }
+}

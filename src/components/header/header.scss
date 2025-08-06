@@ -1,0 +1,32 @@
+header {
+    width: 70%;
+    margin: 4rem auto 3rem auto;
+
+    #logo {
+        display: flex;
+        gap: 3rem;
+
+        #MainLogo {
+            width: 100px;
+            height: auto;
+            scale: 1.5;
+        }
+
+        #TextLogoContainer {
+            border-bottom: 2px solid #81af35;
+            width: 100%;
+            display: flex;
+
+            #TextLogoContainerInner {
+                justify-content: center;
+                height: fit-content;
+                margin: auto 0;
+
+                #TextLogo {
+                    width: 50%;
+                    height: 50%;
+                }
+            }
+        }
+    }
+}

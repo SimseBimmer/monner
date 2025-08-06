@@ -1,13 +1,20 @@
 import { NavBar } from '../NavBar/NavBar'
-import styles from './header.module.scss'
-import { HeaderStyle } from './Header.styled'
+import './header.scss';
 
 export const Header = () => {
-    return(
-        <HeaderStyle>
-            {/* <h1 className={styles.logo}>Velkommen</h1> */}
-            {/* <h2>til Vite + React</h2> */}
-            {/* <p>brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst </p> */}
-        </HeaderStyle>
+    return (
+        <header>
+            <div id='logo'>
+                <img id='MainLogo' src="/MonsterLogo.jpg" alt="Monster Logo" />
+                <div id='TextLogoContainer'>
+                    <div id='TextLogoContainerInner'>                    
+                        <img id='TextLogo' src="/MonsterLogoText.jpg" alt="Monster Text" />
+                    </div>                    
+                    <NavBar />
+
+                </div>
+
+            </div>
+        </header>
     )
 }
