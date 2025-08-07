@@ -1,10 +1,11 @@
+// Necesseties
 import { useState } from 'react';
 import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+// Components
 import { Header } from './components/header/header';
 import { Footer } from './components/footer/footer';
-
+// Pages
 import { ForsidePage } from './pages/ForsidePage/ForsidePage.jsx';
 import { ProdukterPage } from './pages/ProdukterPage/ProdukterPage.jsx';
 import { LoginPage } from './pages/LoginPage/LoginPage.jsx';
