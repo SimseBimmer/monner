@@ -1,0 +1,45 @@
+form {
+    width: 300px;
+    margin: 5rem 0;
+
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
+
+    input {
+        width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1.2rem;
+        border: 5px solid #94C83D00;
+        transition: 200ms ease-in-out;
+        &:focus {
+            border-color: #94C83D80;
+            outline: none;
+        }
+    }
+
+    button {
+        width: fit-content;
+        padding: .5rem 1rem;
+        background-color: #94C83D80;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: 200ms ease-in-out;
+
+        &:hover {
+            opacity: .7;
+        }
+    }
+}
